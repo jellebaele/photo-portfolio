@@ -18,39 +18,66 @@
 <header>
     <div class="title">
         <div class="title-text">
-            <h1 class="left">Katleen</h1>
-            <h1 class="right">Lapaige</h1>
+            <a class="title-top">
+                <h1 class="left">Katleen</h1>
+                <h1 class="right">Lapaige</h1>
+            </a>
             <div class="title-sub">
                 <p>We don't see the things as they are,</p><br>
                 <p>but as we are.</p>
             </div>
-
-            <!--<h4 class="left-sub">We don't see the things as they are,</h4>
-            <h4 class="right-sub">but as we are.</h4>-->
         </div>
 
     </div>
-    <h2>Gallery</h2>
+    <span class="head-title">
+        <p>Overview</p>
+    </span>
 </header>
 
-<section>
-    <div class="container">
-        <div class="image-container">
+<section class="categories">
+    <div class="container-black-white">
+        <a class="image-container fade">
             <img src="images/cat-abstract.png">
-        </div>
-        <div class="image-container">
+            <p>Abstract</p>
+        </a>
+        <a class="image-container fade">
             <img src="images/cat-experimenteel.png">
-        </div>
-        <div class="image-container">
+            <p>Experimental</p>
+        </a>
+        <a class="image-container fade" href="#">
             <img src="images/cat-minimalisme.png">
-        </div>
-        <div class="image-container">
+            <p class="p-text">Minimalism</p>
+        </a>
+    </div>
+    <div class="container-color">
+        <a class="image-container fade">
             <img src="images/cat-camera-painting.png">
-        </div>
+            <p>Camera Painting</p>
+        </a>
     </div>
 </section>
+
+<footer>
+    <p><i class="fa fa-copyright" aria-hidden="true"></i>
+        2020 Jelle Baele</p>
+    <p class="link"><a href="https://www.instagram.com/katlapaige/" target="_blank">
+        <i class="fa fa-instagram" aria-hidden="true"></i>
+        Instagram</a>
+    </p>
+</footer>
+
+<div class="anim">
+    <div class="slider"></div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"
+        integrity="sha512-IQLehpLoVS4fNzl7IfH8Iowfm5+RiMGtHykgZJl9AWMgqx0AmJ6cRWcB+GaGVtIsnC4voMfm8f2vwtY+6oPjpQ=="
+        crossorigin="anonymous"></script>
+
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+<script src="scripts/home.js"></script>
 </body>
 </html>
