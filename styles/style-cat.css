@@ -30,6 +30,11 @@ header {
     height: 100%;
 }
 
+.title a {
+    color: white;
+    text-decoration: none;
+}
+
 .title h1 {
     font-size: 3vw;
     padding: 0;
