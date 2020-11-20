@@ -12,7 +12,7 @@ body {
 
 .content {
     min-height: 100vh;
-    background: linear-gradient(to left, rgba(23, 23, 23, 0.8), rgba(23, 23, 23, 0.3)), url("../images/front-page-small.jpg");
+    background: linear-gradient(to left, rgba(23, 23, 23, 0.8), rgba(23, 23, 23, 0.3)), url("../images/front-page.png");
     background-size: cover;
     padding: 0 5rem;
     z-index: -1;
