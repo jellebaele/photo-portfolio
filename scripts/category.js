@@ -10,7 +10,13 @@ previews.forEach(preview => {
 
        const originalSrc = preview.getAttribute('data-original');
        original.src = `images/minimalistic/full/${originalSrc}`;
+       if (preview.alt === ""){
+           original.style.maxHeight = '90vh';
+       } else {
+           original.style.maxHeight = '85vh';
+       }
        imgText.textContent = preview.alt;
+
     })
 });
 
