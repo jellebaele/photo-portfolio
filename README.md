@@ -2,7 +2,16 @@
 
 Static html site for displaying images.
 
-To Do
+## To Do
 
-[x] Backend server
-[x] Authentication
+* [] Backend server
+    * [] First setup 
+    * [] Generate routes
+    * [] Deploy first version on digital ocean
+
+* [] Static site
+    * [] Refactor
+    * [] Talk to backend server locally
+    * [] Deploy first version on digital ocean
+
+* [] Authentication
