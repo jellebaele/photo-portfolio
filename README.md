@@ -12,6 +12,8 @@ Static html site for displaying images.
 * [] Static site
     * [] Refactor
     * [] Talk to backend server locally
-    * [] Deploy first version on digital ocean
+    * [] Deploy first version on digital ocean/Netlify
+
+* [] Run static site dynamically?
 
 * [] Authentication
